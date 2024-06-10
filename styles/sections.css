@@ -4,6 +4,30 @@ section header {
     font: var(--text-span);
 }
 
+section header a {
+    justify-self: end;
+    align-items: center;
+    gap: 8px;
+ }
+
+ section header a span {
+    background-image: url(../assets/icons/WhiteArrowRight.svg);
+    width: 16px;
+    height: 16px;
+    
+ }
+
+ section header a:hover span {
+    background-image: url(../assets/icons/ArrowRight.svg);
+    width: 16px;
+    height: 16px;
+    
+ }
+
+ #featured {
+    grid-area: featured;
+ }
+
 #featured img{
     height: 100%;
     object-fit:cover;
@@ -41,30 +65,13 @@ section header {
     margin-top: 8px;
  }
 
+ #weelkly {
+    grid-area: featured;
+ }
+
  #weekly>div {
     grid-template-columns: repeat(4, 292px);
-    /* grid-template-columns: repeat(4, 292px); */
- }
-
- #weekly header a {
-    justify-self: end;
-    align-items: center;
-    gap: 8px;
- }
-
- #weekly header a span {
-    background-image: url(../assets/icons/WhiteArrowRight.svg);
-    width: 16px;
-    height: 16px;
-    
- }
-
- #weekly header a:hover span {
-    background-image: url(../assets/icons/ArrowRight.svg);
-    width: 16px;
-    height: 16px;
-    
- }
+ } 
 
  #weekly img{
     height: 160px;
@@ -84,4 +91,27 @@ section header {
     margin-top: 8px;
     font-weight: 800;
  }
- 
+
+#ai {
+    grid-area: ai;
+}
+
+ #ai img{
+    width:  176px;
+    height: auto;
+    object-fit: cover;
+ }
+
+ #ai h3 {
+    margin-block: 8px 4px;
+ }
+
+ aside {
+    grid-area: aside;
+ }
+
+ #more img {
+    width: 72px;
+    height: auto;
+    object-fit: cover;
+ }
