@@ -65,8 +65,8 @@ section header a {
     margin-top: 8px;
  }
 
- #weelkly {
-    grid-area: featured;
+ #weekly {
+    grid-area: weekly;
  }
 
  #weekly>div {
