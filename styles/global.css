@@ -31,6 +31,12 @@ body {
     /* padding-block: 25px; */
 }
 
+.container{
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -44,6 +50,7 @@ h1, h2, h3 {
     font: inherit;
 }
 
+/* utlity classes */
 .grid {
     display: grid;
 }
